@@ -1,0 +1,243 @@
+html {
+     scroll-behavior: smooth;
+}
+
+* {
+     margin: 0px;
+     font-family: Arial;
+     border: border-box;
+}
+.navbar {
+     height: 60px;
+     background-color: #0f1111;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.nav-logo {
+     display: flex;
+     align-items: center;
+     height: 30px;
+     width: 100px;
+     padding: 1px 8px 0px 6px;
+}
+.logo {
+     background-image: url("./assets/wp7771161.webp");
+     background-size: cover;
+     height: 50px;
+     width: 100%;
+}
+.border {
+     border: 4px solid transparent;
+}
+
+.border:hover {
+     border: 1.5px solid white;
+}
+
+.first-address {
+     color: #cccccc;
+     display: flex;
+     align-items: center;
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 15px;
+}
+
+.add-icon i {
+     color: white;
+     padding: 0px 0px 1px;
+}
+.second-address {
+     margin-left: 3px;
+     font-size: 14px;
+     font-weight: 17px;
+     padding: 0px 0px 1px;
+}
+.add-icon {
+     display: flex;
+}
+
+.nav-search {
+     display: flex;
+     justify-content: space-evenly;
+     background-color: pink;
+     height: 40px;
+     width: 620px;
+     border-radius: 4px;
+}
+.nav-search:hover {
+     border: 2px solid orange;
+}
+
+.nav-search-icon {
+     width: 45px;
+     height: 40px;
+}
+.search-select {
+     background-color: #f3f3f3;
+     width: 50px;
+     text-align: center;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border: none;
+}
+.input-nav {
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+}
+
+.nav-search-icon {
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     background-color: #edc951;
+     color: #0f1111;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+}
+
+/* signin */
+
+span {
+     font-size: 0.7rem;
+}
+
+.nav-second {
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+
+/* cart */
+
+.nav-cart i {
+     font-size: 30px;
+}
+.nav-cart {
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+
+.panel {
+     height: 39px;
+     background-color: #222f3d;
+     color: #ffffff;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.menu-all p {
+     display: inline;
+
+     padding: 8px 9px;
+}
+
+.menu-all {
+     width: 90%;
+}
+
+/* hero-section */
+
+.hero-section {
+     background-image: url("./assets/first_box.jpg");
+     background-size: cover;
+     height: 350px;
+}
+
+/* shop-section */
+.shop-section {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: #e2e7e9;
+}
+.box {
+     background-color: white;
+     height: 400px;
+     width: 31%;
+     padding: 20px 0px 15px;
+     margin-top: 5px;
+}
+
+.box-img {
+     height: 300px;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.box-content {
+     margin-left: 1rem;
+     margin-right: 1rem;
+}
+
+.box-content p {
+     color: #007185;
+}
+
+.footer {
+     border: 0.5px solid black;
+     margin-top: 10px;
+}
+#foot-panel1 {
+     background-color: #131a22;
+     height: 50px;
+     color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.footer a {
+     color: #ffffff;
+     text-decoration: none;
+}
+
+.foot-panel2 {
+     background-color: #17283d;
+     color: white;
+     height: 320px;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 30px;
+}
+
+.footpanel2 p {
+     font-size: 16px;
+}
+
+.foot-panel2 a {
+     color: #dddddd;
+     font-size: 14px;
+     padding-top: 10px;
+
+     display: block;
+}
+
+.foot-panel a:hover {
+     text-decoration: underline;
+}
+
+.foot-panel3 {
+     background-color: #17283d;
+     color: white;
+     height: 80px;
+     text-align: center;
+
+     font-size: 0.7rem;
+}
+
+.conditions {
+     padding-top: 25px;
+}
+
+.conditions a {
+     padding: 5px;
+}
+
+.copy-right {
+     padding-top: 5px;
+}
